@@ -25,7 +25,11 @@
             color: white;
             margin-top: 300px;
         }
-
+/* 
+        .home {
+            display: flex;
+            align-items: center;
+        } */
         .main {
             display: flex;
         }
@@ -152,6 +156,10 @@
     <div class="menubar">
         <h1>My Contact Book</h1>
 
+        <div class="Home">
+            <a href="index.php">Home</a>
+        </div>
+
         <div class="myname">
             <div class="avatar">H.H</div>Harry Huber
         </div>
@@ -264,7 +272,7 @@
             ?>
         </div>
     </div>
-
+    views/SpendenView.vue
     <div class="footer">
         (C) 2021 Harrys Dev Ent Corp.
     </div>
